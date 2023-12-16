@@ -5,7 +5,7 @@ try:
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="root",
+        password="",
         database="native_crud"
     )
 
